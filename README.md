@@ -16,12 +16,12 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ### Week 3
 
-- **Topic**: Next.js Setup and Basic Components
-- **Page**: [Week 2 - Shopping List](https://cprg306c-assignments.vercel.app/week-2)
+- **Topic**:Components and Props
+- **Page**: [Week 3 - Shopping List](https://cprg306c-assignments.vercel.app/week-3)
 - **Features**:
-  - Created Next.js project structure
-  - Built StudentInfo component
-  - Implemented page routing
+  - Build the Shopping List
+  - Update Page Title
+  - Run and Test the App
 
 ### Week 2
 
