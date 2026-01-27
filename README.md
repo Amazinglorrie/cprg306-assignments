@@ -1,4 +1,4 @@
-# CPRG 306: Web Development 2 - Assignments
+# CPRG 306: Web Development 3 - Assignments
 
 This repository contains all assignments for the CPRG 306 Web Development 2 course.
 
@@ -13,6 +13,15 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 - **Live Site**: [View on Vercel](https://cprg306c-assignments.vercel.app/)
 
 ## Weekly Assignments
+
+### Week 3
+
+- **Topic**: Next.js Setup and Basic Components
+- **Page**: [Week 2 - Shopping List](https://cprg306c-assignments.vercel.app/week-2)
+- **Features**:
+  - Created Next.js project structure
+  - Built StudentInfo component
+  - Implemented page routing
 
 ### Week 2
 
