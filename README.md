@@ -14,6 +14,34 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ## Weekly Assignments
 
+# Week 5 Assignment - Shopping List Form
+
+# A simple interactive shopping list form built with Next.js and React.
+
+## Features
+
+- Add items with name, quantity, and category
+- Form validation
+- State management with React hooks
+- Clean and responsive UI
+
+## Project Structure
+
+````
+app/
+  page.js              # Home page with link to week-5
+  week-5/
+    page.js            # Main page component
+    NewItem.js         # Shopping list form component
+
+## Assignment Requirements
+
+✅ Functional component with "use client"
+✅ useState for state management
+✅ Form with name, quantity, and category inputs
+✅ Form submission handler
+✅ Console logging and user alerts
+✅ Form reset after submission
 ### Week 3
 
 - **Topic**:Components and Props
@@ -52,7 +80,7 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ```bash
 git clone https://github.com/Amazinglorrie/cprg306-assignments.git
-```
+````
 
 2. Navigate to the project directory:
 
