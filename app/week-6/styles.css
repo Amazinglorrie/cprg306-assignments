@@ -1,0 +1,148 @@
+
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sl-page {
+    min-height: 100vh;
+    background: #0044bb;
+    font-size: 14px;
+    color: #fff;
+    padding: 24px 20px 80px;
+}
+
+.sl-inner {
+    max-width: 400px;
+    margin: 1 auto;
+}
+
+.sl-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0px;
+}
+
+.new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1 1 120px;
+}
+
+.form-group--sm {
+    flex: 0 1 64px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-group input,
+.form-group select {
+    padding: 6px 8px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #fff;
+    width: 100%;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #0057e3;
+}
+
+.add-btn {
+    padding: 6px 16px;
+    background: #0057e3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+     white-space: nowrap;
+}
+
+.add-btn:active {
+    opacity: 0.85;
+}
+
+.sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.sort-label {
+    font-size: 13px;
+    color: #fff;
+}
+
+.sort-btn {
+    padding: 4px 14px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background: #e8e8e8;
+    font-size: 13px;
+  
+    cursor: pointer;
+    color: #111;
+    transition: background 0.1s, color 0.1s;
+}
+
+.sort-btn--active {
+    background: #d38d0b;
+    border-color: #0057e3;
+    color: #fff;
+    font-weight: semibold;
+}
+
+
+.item-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.item-card {
+    border: 1px solid #111;
+    border-radius: 2px;
+    padding: 8px 12px;
+    background: #fff;
+    line-height: 1.7;
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: normal;
+    color: #111;
+}
+
+.item-detail {
+    font-size: 15px;
+    color: #333;
+}
+
