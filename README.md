@@ -14,6 +14,16 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ## Weekly Assignments
 
+# Week 6 Assignment - Interactivity with Forms
+Features
+- event object
+- event handlers
+- review form elements
+- conditional rendering
+- controlled components
+
+## Weekly Assignments
+
 # Week 5 Assignment - Shopping List Form
 
 # A simple interactive shopping list form built with Next.js and React.
