@@ -67,6 +67,7 @@ app/
 
 - **Topic**: Next.js Setup and Basic Components
 - **Page**: [Week 2 - Shopping List](https://cprg306c-assignments.vercel.app/week-2)
+ https://github.com/Amazinglorrie/cprg306-assignments.git
 - **Features**:
   - Created Next.js project structure
   - Built StudentInfo component
