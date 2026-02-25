@@ -61,8 +61,8 @@
 .form-group input,
 .form-group select {
     padding: 6px 8px;
-    background-color: #;
-    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    border: 1px solid #aaa;
     border-radius: 4px;
     font-size: 12px;
     color: #000;
@@ -100,7 +100,8 @@
 
 .sort-label {
     font-size: 13px;
-    color: #333;
+    color: #fff;
+     white-space: nowrap;   
 }
 
 .sort-btn {
@@ -118,9 +119,9 @@
 }
 
 .sort-btn--active {
-    background: #d38d0b;
+    background: hwb(39 9% 15%);
     border-color: #0057e3;
-    color: #a51010;
+    color: #211818;
     font-weight: semibold;
 }
 
