@@ -14,8 +14,20 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ## Weekly Assignments
 
-# Week 6 Assignment - Interactivity with Forms
+# Week 7 Assignment - Managing State
+
 Features
+
+- Immutability
+- Spread Operator
+- Lifting State
+- Component Library
+- Functional Update
+
+# Week 6 Assignment - Interactivity with Forms
+
+Features
+
 - event object
 - event handlers
 - review form elements
