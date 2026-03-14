@@ -1,4 +1,4 @@
-const CATEGORY_EMOJIS = {
+const CATEGORY = {
   Bakery: "🍞",
   Dairy: "🥛",
   Produce: "🍌",
@@ -14,7 +14,7 @@ const CATEGORY_EMOJIS = {
 };
 
 export default function Item({ name, quantity, category, onSelect }) {
-  const emoji = CATEGORY_EMOJIS[category] ?? "🛒";
+  const emoji = CATEGORY[category] ;
 
   return (
     <li
