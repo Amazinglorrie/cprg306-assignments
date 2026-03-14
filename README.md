@@ -14,6 +14,15 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ## Weekly Assignments
 
+## Week 8 Assignment - Fetching Data
+
+## Features
+
+- Add items with name, quantity, and category
+- Sort items by name or category
+- Click any item to fetch meal ideas from TheMealDB API
+- Clean and responsive two-column layout
+
 # Week 7 Assignment - Managing State
 
 Features
