@@ -95,7 +95,7 @@ export default function NewItem({ onAddItem }) {
           className="bg-zinc-900/80 border border-zinc-700 rounded-lg px-3 py-2 text-zinc-100 text-lg focus:outline-none focus:border-emerald-500/70 focus:ring-1 focus:ring-emerald-500/30 transition-all appearance-none cursor-pointer"
         >
           {CATEGORIES.map((cat) => (
-             <option key={cat} value={cat} style={{ fontSize: "2.5rem" }}>
+             <option key={cat} value={cat} style={{ fontSize: "1rem" }}>
               {cat}
             </option>
           ))}
