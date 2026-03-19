@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useUserAuth } from "../../contexts/AuthContext";
 import GroceryItemList from "./GroceryItemList";
@@ -14,11 +14,13 @@ export default function Page() {
   const [items, setItems] = useState(itemsInfo);
   const [selectedItemName, setSelectedItemName] = useState("");
 
-  // If not logged in, redirect to landing page
-  if (!user) {
-    router.push("/week-9");
-    return null;
-  }
+  useEffect(() => {
+    if (!user) {
+      router.push("/week-9");
+    }
+  }, [user]);
+
+  if (!user) return null;
 
   function handleAddItem(newItem) {
     setItems((prev) => [...prev, newItem]);

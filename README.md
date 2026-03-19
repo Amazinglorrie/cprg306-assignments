@@ -14,6 +14,9 @@ This repository contains all assignments for the CPRG 306 Web Development 2 cour
 
 ## Weekly Assignments
 
+## Week 9 Assignment - Firebase Auth
+-
+
 ## Week 8 Assignment - Fetching Data
 
 ## Features
