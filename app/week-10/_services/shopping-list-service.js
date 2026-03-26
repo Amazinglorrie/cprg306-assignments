@@ -1,10 +1,6 @@
-import { db } from "../utils/firebase";
+import { db } from "../../utils/firebase";
 import { collection, getDocs, addDoc, query } from "firebase/firestore";
 
-
-// -----------------------------------------------------
-// Get all items for a specific user
-// -----------------------------------------------------
 export async function getItems(userId) {
   try {
     const itemsRef = collection(db, "users", userId, "items");
@@ -27,9 +23,6 @@ export async function getItems(userId) {
   }
 }
 
-// -----------------------------------------------------
-// Add a new item for a specific user
-// -----------------------------------------------------
 export async function addItem(userId, item) {
   try {
     const itemsRef = collection(db, "users", userId, "items");

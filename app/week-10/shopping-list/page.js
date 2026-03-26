@@ -8,9 +8,7 @@ import GroceryItemList from "./GroceryItemList";
 import NewGroceryItem from "./NewGroceryItem";
 import MealIdeas from "./MealIdeas";
 
-import { getItems, addItem } from "../../_services/shopping-list-service";
-// If you add delete later:
-// import { deleteItem } from "../../_services/shopping-list-service";
+import { getItems, addItem } from "../_services/shopping-list-service";
 
 export default function Page() {
   const { user } = useUserAuth();
@@ -19,20 +17,15 @@ export default function Page() {
   const [items, setItems] = useState([]);
   const [selectedItemName, setSelectedItemName] = useState("");
 
-  // -----------------------------------------------------
-  // Redirect if not logged in
-  // -----------------------------------------------------
   useEffect(() => {
     if (!user) {
-      router.push("/week-9");
+      router.push("/week-10");
     }
   }, [user]);
 
   if (!user) return null;
 
-  // -----------------------------------------------------
-  // Load items from Firestore
-  // -----------------------------------------------------
+  
   async function loadItems() {
     const data = await getItems(user.uid);
     setItems(data);
@@ -42,18 +35,13 @@ export default function Page() {
     loadItems();
   }, [user]);
 
-  // -----------------------------------------------------
-  // Add item to Firestore + UI
-  // -----------------------------------------------------
+ 
   async function handleAddItem(newItem) {
     const id = await addItem(user.uid, newItem);
     const itemWithId = { id, ...newItem };
     setItems((prev) => [...prev, itemWithId]);
   }
 
-  // -----------------------------------------------------
-  // Handle selecting an item for Meal Ideas
-  // -----------------------------------------------------
   function handleItemSelect(item) {
     const cleanedName = item.name
       .split(",")[0]

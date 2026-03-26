@@ -10,7 +10,7 @@ export default function Page() {
   async function handleSignIn() {
     try {
       await gitHubSignIn();
-      router.push("/week-9/shopping-list");
+      router.push("/week-10/shopping-list");
     } catch (error) {
       console.error("Sign in error:", error);
     }
@@ -33,7 +33,7 @@ export default function Page() {
           <button onClick={handleSignOut} className="bg-red-600 hover:bg-red-700 px-6 py-2 rounded">
             Sign Out
           </button>
-          <button onClick={() => router.push("/week-9/shopping-list")} className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded">
+          <button onClick={() => router.push("/week-10/shopping-list")} className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded">
             Go to Shopping List
           </button>
         </div>
